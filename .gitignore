@@ -1,0 +1,12 @@
+node_modules
+private/log
+private/var
+sftp-config.json
+*.log
+*.txt
+.DS_Store
+.idea
+output*
+*.sublime-project
+*.sublime-workspace
+views/index
