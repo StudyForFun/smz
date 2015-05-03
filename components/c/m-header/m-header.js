@@ -3,7 +3,4 @@ exports.init = function(){
     menu.onclick = function(){
 
     }
-    //console.log(menu);
-    //alert('hello World!');
-    //console.log('hi, ' + title);
 };

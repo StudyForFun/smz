@@ -1,62 +1,40 @@
-.swipe {
-  overflow: hidden;
-  visibility: hidden;
+html, body {
   position: relative;
+  height: 100%;
 }
-
-.swipe-wrap {
-  overflow: hidden;
-  position: relative;
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
 }
-
-.swipe-wrap .swipe-item {
-  float: left;
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
   display: block;
-  position: relative;
   text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
   width: 100%;
-  font-size: 0;
-}
-
-.swipe-wrap img {
-  width: 100%;
-}
-
-fieldset, img {
-  border: 0;
-}
-
-.swipe-option {
-  position: absolute;
-  bottom: 1.6rem;
-  left: 50%;
-}
-
-.swipe-option li {
-  float: left;
-}
-
-.swipe-option i {
-  margin: 0 0.6rem;
-  float: left;
-  font-size: 1rem;
-  color: rgba(255,255,255,0.5);
-  cursor: pointer;
-}
-
-.fa {
-   display: inline-block;
-   font: normal normal normal 14px/1 FontAwesome;
-   font-size: inherit;
-   text-rendering: auto;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
- }
-
-.fa-circle:before {
-  content: "\f111";
-}
-
-.fa-circle-thin:before {
-  content: "\f1db";
 }

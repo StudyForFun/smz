@@ -23,6 +23,8 @@
         {% require "../../lib/md.js" %}
         {% require "../../lib/zepto.js" %}
         {% require "../../lib/pagelet.js" %}
+		{% require "../../lib/swiper/swiper.js" %}
+        {% require "../../lib/swiper/swiper.css" %}
         {% require "../../lib/normalize.css" %}
         {% require "./layout.css" %}
         {% require "./font.css" %}
